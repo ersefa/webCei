@@ -1,0 +1,308 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO GENERAL CAMPUS DE EXCELENCIA INTERNACIONAL
+* DEPARTAMENTO DE ESTUDIOS E IMAGEN CORPORATIVA (DEIC)
+* Universidad Complutense de Madrid
+* 
+* Fichero:             normal.css
+* Finalidad:           Visualizacion normal 
+* Fecha actualizacion: 17/02/2011
+* 
+*****************************************************************************************************************************
+*/
+
+/* Cuerpo general */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+ 
+body {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, Helvetica;
+	text-align: center;
+}
+
+div#shim {
+	visibility: hidden;
+	width: 100%;
+	height: 50%;
+	margin-top: -300px;
+	float: left;
+}
+
+#wraper {
+	position: relative;
+	width: 1000px;
+	height: 600px;
+	clear: both;
+	padding: 0px;
+	margin: 0 auto 0 auto;
+	left: 50%;
+    margin-left: -500px;
+	
+	border-width: 1px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 10px;
+	text-align: left;
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	box-shadow: 0px 0px 10px #888;
+}
+
+#header {
+	position: relative;
+	height: 10px;
+	width: 1000px;
+}
+
+#flag, #flagEn {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top:84px;
+	right:90px;
+	opacity: 1;
+	z-index: 1;
+}
+
+#flag {
+	background: url(../images/enflag.png) no-repeat center center;
+}
+
+#flag:hover{
+	background: url(../images/enflaghover.png) no-repeat center center;
+}
+
+#flagEn {
+	background: url(../images/esflag.png) no-repeat center center;
+}
+
+#flagEn:hover{
+	background: url(../images/esflaghover.png) no-repeat center center;
+}
+
+
+#flag a, #flagEn a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#navigation{
+	position: relative;
+	/* top: 250px; */
+	width: 250px;
+	height: 465px;
+}
+
+#footer{
+	position: absolute;
+	height: 18px;
+	width: 1000px;
+	top: 580px;
+	padding-top: 2px;
+	background-color: #575757;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+}
+
+#footer a:link{
+	color: #ff8000;
+}
+
+/* #content img {
+	border: 0px;
+	padding: 0px;
+	margin: 20px 20px 20px 38px;
+} */
+
+#indexslide {
+	position:absolute;
+	margin: 50px 0px 0px 0px;
+}
+
+#indexLogos {
+	position:absolute;
+	padding: 0px;
+	margin: 350px 0px 0px 30px;
+}
+
+#indexLogos img {
+	border: 0px;
+	padding: 0px;
+	margin: 10px 10px 10px 10px;
+}
+
+#show {
+	margin-top: 40px;
+}
+
+#content{
+	position: absolute;
+	height: 540px;
+	width: 640px;
+	top: 25px;
+	left: 270px;
+	margin-right: 20px;
+	padding: 0px 30px 0px 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #679ACD;
+	border-radius: 10px;
+	z-index: 0;
+}
+
+#content .pdf {
+	/* border: 0px;
+	padding: 0px;
+	margin: 5px 10px 0px 0px; */
+	vertical-align: middle;
+}
+
+#innerContent{
+	position: relative;
+	height: 520px;
+	width: 660px;
+	z-index: 0;
+	overflow: auto;
+	margin: 13px 0px 0px 0px;
+	word-wrap: break-word;
+}
+
+#innerContent2{
+	position: relative;
+	height: 500px;
+	width: 540px;
+	z-index: 0;
+	overflow: auto;
+	margin: 13px 0px 0px 120px;
+	word-wrap: break-word;
+}
+
+#contactLeft{
+	position: absolute;
+	height: 140px;
+	width: 340px;
+	margin: 0px 0px 0px 0px;
+	
+}
+
+#news h4{
+	margin-bottom: 3px;	
+}
+
+#news h3{
+	margin-bottom: 20px;	
+}
+
+#links {
+	margin-left: 50px;
+}
+
+#contactError{
+	position: absolute;
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#form {
+	position: absolute;
+	height: 470px;
+	width: 310px;
+	margin: -35px 0px 0px 340px;	
+}
+
+#submenu {
+	position: absolute;
+	height: 520px;
+	width: 120px;
+	padding-top: 50px;
+	font-size: 0.85em;
+}
+
+#submenu ul {
+	list-style-type: square;
+	padding: 0px 10px 0px 3px;
+}
+
+#submenu ul li{
+	padding: 0px 0px 15px 0px;
+}
+	
+#submenu ul li a{
+	color: #FF8000;
+	text-decoration: none;
+}
+
+/* #submenu ul li a:visited{
+	color:grey;
+} */
+
+/* #margin{
+	position: absolute;
+	height: 10px;
+	width: 1000px;
+	top: 760px;
+} */
+
+#logo{
+	position: relative;
+	height: 100px;
+	width: 250px;
+	background: url(../images/logo22.png) no-repeat center center;
+}
+	
+#logo a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#flashPlano{
+	width: 550px;
+	height: 390px;
+	margin-left: 50px;
+}
+
+#map {
+	margin: 30px 0px 0px 30px;
+	width: 600px; 
+	height: 400px;
+}
+
+h1 {
+	color: #679ACD;
+}
+
+h2 {
+	color: grey;
+}
+
+h3 {
+	color: #996600;
+}
+
+h4{
+	color: #f6972b;
+}
+
+object {
+	z-index: 0;
+}
+
+/* div {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+} */

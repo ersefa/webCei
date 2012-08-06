@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
+
+	
+	<!-- Script SlideShow2 -->
+	<script type="text/javascript" src="js/mootools.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript">		
+	//<![CDATA[
+	  window.addEvent('domready', function(){
+	    var data = {
+	      '1.jpg': { caption: 'Foto 1' }, 
+	      '2.jpg': { caption: 'Foto 2' }, 
+	      '3.jpg': { caption: 'Foto 3' }, 
+	      '4.jpg': { caption: 'Foto 4' },
+		  '5.jpg': { caption: 'Foto 5' },
+		  '6.jpg': { caption: 'Foto 6' },
+		  '7.jpg': { caption: 'Foto 7' },
+		  '8.jpg': { caption: 'Foto 8' },
+		  '9.jpg': { caption: 'Foto 9' }
+		};
+	    var myShow = new Slideshow('show', data, { captions: true, controller: true, delay: 3000, height: 300, hu: 'images/', thumbnails: true, linked: true, width:400});
+		var box = new Lightbox({ 
+			  'onClose': function(){ this.pause(false); }.bind(myShow), 
+			  'onOpen': function(){ this.pause(true); }.bind(myShow) 
+		});
+	  });
+	//]]>
+	</script>
+</head>
+
+<body>
+
+
+	
+	<div id="show" class="slideshow">
+		<a rel="lightbox" href="images/1.jpg">
+			<img src="images/1.jpg" width="400" height="300" alt="Slideshow 2! Example 2: Integration with Lightbox" />
+		</a>
+	</div>
+	
+
+</body>
+
+</html>

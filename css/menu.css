@@ -1,0 +1,130 @@
+div.sdmenu {
+	margin: 0;
+	margin-left: 0px;
+	padding: 20px;
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div.sdmenu div {
+	/* background: url(menu/title.gif) repeat-x; */
+	overflow: hidden;
+}
+
+div.sdmenu div.collapsed {
+	height: 25px;
+}
+
+div.sdmenu div span {
+	display: block;
+	padding: 5px 0px;
+	font-weight: bold;
+	color: #679ACD;
+	background: url(menu/expanded.gif) no-repeat 10px center;
+	cursor: default;
+	/* border-bottom: 1px solid #ddd; */
+}
+
+div.sdmenu div span:hover {
+	cursor: default;
+	color: #3D5B7A;
+}
+
+div.sdmenu div.collapsed span {
+	background-image: url(menu/collapsed.gif);
+}
+
+div.sdmenu div a, div.sdmenu div span a {
+	text-decoration: none;
+	padding: 5px 15px;
+	/* background: #eee; */
+	display: block;
+	/* border-bottom: 1px solid #ddd; */
+	color: #679ACD;
+}
+
+div.sdmenu div a.current {
+	background : #ccc;
+}
+
+div.sdmenu div a:hover {
+	background: #bbc5cf;
+	color: #3D5B7A;
+}
+
+div.sdmenu span a{
+	text-decoration: none;
+	padding: 5px 0px;
+	font-weight: bold;
+	color: #679ACD;
+	background: url(menu/expanded.gif) no-repeat 10px center;
+	cursor: pointer;
+	display: block;
+}
+
+div.sdmenu span a:hover{
+	color: #3D5B7A;
+}
+
+/* a {
+	text-decoration: none;
+}
+ 
+.menu{
+	margin: 0;
+	margin-left: 0px;
+	padding: 20px;
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 1em;
+	font-weight: bold;
+	list-style: none; 
+}
+ 
+.title {
+	overflow: hidden;
+	border-top: 1px solid #fff;
+}
+ 
+.menu li.title:first-child {
+	border-top: none;
+}
+ 
+.title a span {
+	display:block;
+	padding:4px 4px 4px 15px;
+	color: #679ACD;
+}
+ 
+.title ul li a {
+	display: block;
+	padding-left: 35px;
+	line-height: 23px;
+	text-decoration: none;
+	font-size: 1em;
+	background: #fff;
+	color: #679ACD;
+	list-style-type: none;
+}
+ 
+.title ul li a:hover, .title a span:hover {
+	background: #bbc5cf; 
+	color: #3D5B7A;
+}
+ 
+ 
+.title ul li a {
+	margin: 0;
+	padding: 0;
+ 	-webkit-transition: all .5s ease-in-out;
+ 	height: 0px;
+	display: block;
+}
+ 
+:target + ul li a {
+	height: 25px;
+}
+
+#navigation ul ul, ol ul {
+	list-style-type: none;
+} */

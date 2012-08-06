@@ -1,0 +1,124 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO GENERAL PARA IE CAMPUS DE EXCELENCIA INTERNACIONAL
+* DEPARTAMENTO DE ESTUDIOS E IMAGEN CORPORATIVA (DEIC)
+* Universidad Complutense de Madrid
+* 
+* Fichero:             normalIE.css
+* Finalidad:           Visualizacion normal en IE
+* Fecha actualizacion: 17/02/2011
+* 
+*****************************************************************************************************************************
+*/
+
+/* Cuerpo general */
+body {
+	font-size: 0.75em;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#wraper {
+	left: 0%;
+	margin-left: 0px;
+}
+
+#flag, #flagEn {
+	top:30px;
+}
+
+#flag {
+	background: url(../images/enflag.png) no-repeat center center;
+}
+
+#flagEn {
+	background: url(../images/esflag.png) no-repeat center center;
+}
+
+#flag:hover {
+	background: url(../images/enflaghover.png) 0px -176px no-repeat;
+}
+
+#flagEn:hover  {
+	background: url(../images/esflaghover.png) no-repeat center center;
+}
+
+#content{
+	width: 722px;
+	left: 250px;
+}
+
+#innerContent{
+	position: absolute;
+	height: 510px;
+	width: 680px;
+	z-index: 0;
+	overflow: auto;
+	margin: 13px 0px 0px 10px;
+	word-wrap: break-word;
+}
+
+#innerContent2{
+	position: absolute;
+	width: 570px;
+	margin: 13px 0px 0px 120px;
+	word-wrap: break-word;
+}
+
+#submenu {
+	padding-left: 15px;
+	height: 525px;
+	width: 140px;
+	left: 0px;
+	font-size: 0.9em;
+}
+
+#submenu ul {
+	text-align: left;
+	margin-left: 5px;
+}
+
+#submenu ul li{
+	padding-bottom: 10px;
+}
+
+#map {
+	margin: 0px 0px 0px -60px;
+	width: 600px; 
+	height: 400px;
+	top: 10px;
+	left: 90px;
+}
+
+#footer {
+	top: 595px;
+	left: -1px;
+	width: 1001px;
+}
+
+#show {
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+#form {
+	margin: 50px 0px 0px 180px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4{
+	font-size: 1em;
+}
